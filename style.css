@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    min-height: 60vh;
+  background: url("bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    width: 90%;
+}
+.nav{
+    display: flex;
+    min-height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    width: 40%;
+    list-style-type:none;
+    justify-content: space-between;
+
+}
+.headline{
+    position: absolute;
+    top:50%;
+    left:50%; /*without transform headline willnot  proper centre)*/
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size:1rem;
+    margin-top: 1rem;
+    font-weight:600 ;
+}
+
+.Todo-section{
+    margin-top:5rem ;
+    text-align: center;
+
+}
+.bg-darK{
+    background-color: black;
+    color: white;
+}
+.form-todo{
+   
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.form-todo input{
+   min-height: 100%;
+}
+.form-todo input[type="text"]{
+    width: 80%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight:400;
+  
+}
+.form-todo input[type="submit"]{
+    width: 20%;
+    margin-left: 1rem;
+    background-color:rgba(94,138,125,255);
+    color: white;
+    font-weight: bold;
+  
+    
+}
+.todolist{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.todolist li{
+    padding: 0.7rem;
+    background-color: #444;
+    color: white;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+.todo-btn{
+padding: 0.5rem 1rem;   
+font-size: 1rem; 
+font-weight: bold;
+cursor: pointer;
+}
+
+.section-signup{
+    margin: 5rem auto;
+    text-align: center;
+    background-color:rgb(240,240,240) ;
+    border-radius: 1px solid black;
+    padding: 1rem;
+}
+.Signupform{
+    max-width: 800px;
+    width: 95%;/*fir small devices*/
+    /* text-align: left; */
+    margin: auto;
+}
+
+.Signupform label{
+display: block;
+text-align: left;
+}
+.Signupform input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    
+    }
+    .form-group{
+margin-top: 1rem;
+    }
+.Signupform textarea{
+    width: 100%;
+}
+.signup-btn{
+    background-color:rgba(94,138,125,255); 
+    color: white;
+    padding: 1rem 2rem;
+    display: inline-block;
+   margin: auto;
+   margin-top: 1rem;
+
+
+
+   } 
+
+
